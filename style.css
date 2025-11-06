@@ -1,0 +1,92 @@
+/* Fuente y estructura base */
+body {
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: hidden; /* Permite scroll vertical pero no horizontal */
+    position: relative;
+}
+
+/* Fondo tipo galaxia */
+.fondo-galaxia {
+    position: fixed;
+    inset: 0;
+    background: radial-gradient(circle at 30% 30%, #1a1a40, #000814 80%);
+    overflow: hidden;
+    z-index: -2;
+}
+
+/* Capa de partículas animadas */
+canvas#particulas {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+}
+
+/* Contenedor principal */
+.card {
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos de botones */
+.tecla-base {
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: all 0.15s ease-in-out;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+}
+
+.btn-func {
+    border-color: #4f46e5;
+    background-color: #eef2ff;
+    color: #3730a3;
+    text-align: left;
+    padding-left: 0.5rem;
+}
+.btn-func:hover { background-color: #e0e7ff; }
+.btn-func:active { background-color: #c7d2fe; }
+
+.btn-op {
+    border-color: #9ca3af;
+    background-color: #f3f4f6;
+    color: #1f2937;
+}
+.btn-op:hover { background-color: #e5e7eb; }
+.btn-op:active { background-color: #d1d5db; }
+
+.btn-num {
+    border-color: #f59e0b;
+    background-color: #fffbeb;
+    color: #92400e;
+}
+.btn-num:hover { background-color: #fef3c7; }
+.btn-num:active { background-color: #fde68a; }
+
+.btn-clear {
+    border-color: #ef4444;
+    background-color: #fef2f2;
+    color: #b91c1c;
+}
+.btn-clear:hover { background-color: #fee2e2; }
+.btn-clear:active { background-color: #fecaca; }
+
+.grid-teclado { gap: 0.5rem; }
+.grid-teclado button { width: 100%; height: 100%; }
+.grid-teclado button:not(.btn-clear) { aspect-ratio: 1 / 1; }
+
+.calculation-section {
+    padding: 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    background-color: #f9fafb;
+    margin-bottom: 1.5rem;
+}
