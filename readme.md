@@ -1,4 +1,4 @@
-&nbsp;Calculadora de Cálculo Diferencial e Integral
+Calculadora de Cálculo Diferencial e Integral
 
 
 
@@ -13,8 +13,7 @@ Autores:
 
 
 
-
-&nbsp; Descripción del proyecto
+Descripción del proyecto
 
 
 
@@ -30,13 +29,13 @@ Cuenta con un fondo tipo galaxia animado con partículas, lo que le da un toque 
 
 
 
-&nbsp; Funcionalidades principales
+Funcionalidades principales
 
 
 
 1\. Derivación simbólica  
 
-&nbsp;  Calcula la derivada simbólica de la función ingresada usando `math.js`.
+ Calcula la derivada simbólica de la función ingresada usando `math.js`.
 
 
 
@@ -66,7 +65,7 @@ Cuenta con un fondo tipo galaxia animado con partículas, lo que le da un toque 
 
 
 
-&nbsp; Estructura del proyecto:
+Estructura del proyecto:
 
 
 
@@ -88,7 +87,7 @@ Cuenta con un fondo tipo galaxia animado con partículas, lo que le da un toque 
 
 
 
-&nbsp; Tecnologías utilizadas
+Tecnologías utilizadas
 
 
 
@@ -106,7 +105,7 @@ Cuenta con un fondo tipo galaxia animado con partículas, lo que le da un toque 
 
 
 
-&nbsp; Uso básico
+Uso básico
 
 
 
@@ -128,7 +127,7 @@ Cuenta con un fondo tipo galaxia animado con partículas, lo que le da un toque 
 
 
 
-&nbsp; Nota
+Nota
 
 
 
@@ -144,7 +143,7 @@ Cuenta con un fondo tipo galaxia animado con partículas, lo que le da un toque 
 
 
 
-&nbsp; Créditos de desarrollo
+Créditos de desarrollo
 
 
 
@@ -153,5 +152,6 @@ Proyecto desarrollado por
 José Daniel González Monroy y Ernesto Emanuel Santizo Santizo  
 
 para fines académicos.
+
 
 
