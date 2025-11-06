@@ -66,7 +66,7 @@ Cuenta con un fondo tipo galaxia animado con partículas, lo que le da un toque 
 
 
 
-&nbsp; Estructura del proyecto
+&nbsp; Estructura del proyecto:
 
 
 
@@ -153,4 +153,5 @@ Proyecto desarrollado por
 José Daniel González Monroy y Ernesto Emanuel Santizo Santizo  
 
 para fines académicos.
+
 
